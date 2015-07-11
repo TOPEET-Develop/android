@@ -208,7 +208,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" />
-  <project path="external/ntfs-3g" name="platform/external/ntfs-3g"/>
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master"/>
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" />
