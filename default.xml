@@ -51,7 +51,7 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-  <project path="device/rockchip" name="device/rockchip" groups="device" />
+  <project path="device/rockchip" name="android_device_rockchip" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master"  groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/samsung/common" name="android_device_samsung_common" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" groups="device" />
