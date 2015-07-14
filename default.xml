@@ -169,7 +169,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="platform/external/libncurses" />
+  <project path="external/libncurses" name="android_external_libncurses"  remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
