@@ -54,7 +54,7 @@
   <project path="device/rockchip" name="android_device_rockchip" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master"  groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
-  <project path="device/samsung/common" name="android_device_samsung_common" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" groups="device" />
+  <project path="device/samsung/common" name="android_device_samsung_common" remote="origin"     revision="refs/heads/exynos4412_android4.4.4_master" groups="device" />
   <project path="device/samsung/smdk4x12" name="android_device_samsung_smdk4x12" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" groups="device">
     <copyfile src="build_android.sh" dest="build_android.sh" />
     <copyfile src="make_system_only.sh" dest="make_system_only.sh" />
@@ -321,7 +321,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master_mt6620" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
