@@ -316,7 +316,6 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="hardware/realtek/wlan" name="android_hardware_realtek_wlan" groups="realtek" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" groups="mediatek" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" />
-  <project path="kernel" name="itop4412-android4.4-kernel" remote="TOPEET-Develop" clone-depth="1" revision="refs/heads/master" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -365,6 +364,7 @@
   <project path="packages/apps/Utility" name="android_packages_apps_Utility" remote="origin" revision="refs/heads/4412_4.4.4_master" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/SimpleWebCam" name="android_packages_apps_SimpleWebCam" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
