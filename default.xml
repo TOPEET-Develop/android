@@ -38,7 +38,7 @@
      <copyfile src="build_android.sh" dest="build_android.sh" />
      <copyfile src="make_system_only.sh" dest="make_system_only.sh" />
   </project>
-  <project path="device/samsung/exynos4" name="android_device_samsung_exynos4" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="device/samsung/exynos4" name="device_samsung_exynos4" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="device/samsung/common" name="android_device_samsung_common" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="device/samsung/smdk_common" name="android_device_samsung_smdk_common" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="device/samsung/multimedia" name="android_device_samsung_multimedia" revision="refs/heads/exynos4412_android4.0.3_master"  />
@@ -167,7 +167,7 @@
   <project path="external/wlan_tool " name="android_external_wlan_tool " revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/hostap-ccx" name="android_external_hostap-ccx" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/iperf-2.0.4" name="android_external_iperf-2.0.4" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/wireless_tools_29 " name="android_external_wireless_tools_29 " revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/wireless_tools_29 " name="external_wireless_tools_29 " revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/libsnfc-fw" name="android_external_libsnfc-fw" revision="refs/heads/exynos4412_android4.0.3_master"/>
 
 
@@ -211,7 +211,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="android_packages_Gallery2" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="packages/apps/Gallery2" name="packages_Gallery2" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
