@@ -15,14 +15,14 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" >
+  <project path="build" name="android_build" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="bionic" name="android_bionic" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery"  revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="bootable/recovery" name="android_bootable_recovery"  revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -34,15 +34,15 @@
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/smdk4x12" name="device/samsung/smdk4x12" revision="refs/heads/exynos4412_android4.0.3_master" >
+  <project path="device/samsung/smdk4x12" name="android_device_samsung_smdk4x12" revision="refs/heads/exynos4412_android4.0.3_master" >
      <copyfile src="build_android.sh" dest="build_android.sh" />
      <copyfile src="make_system_only.sh" dest="make_system_only.sh" />
   </project>
-  <project path="device/samsung/exynos4" name="device/samsung/exynos4" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="device/samsung/common" name="device/samsung/common" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="device/samsung/smdk_common" name="device/samsung/smdk_common" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="device/samsung/multimedia" name="device/samsung/multimedia" revision="refs/heads/exynos4412_android4.0.3_master"  />
-  <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="refs/heads/exynos4412_android4.0.3_master"  />
+  <project path="device/samsung/exynos4" name="android_device_samsung_exynos4" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="device/samsung/common" name="android_device_samsung_common" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="device/samsung/smdk_common" name="android_device_samsung_smdk_common" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="device/samsung/multimedia" name="android_device_samsung_multimedia" revision="refs/heads/exynos4412_android4.0.3_master"  />
+  <project path="docs/source.android.com" name="android_docs_source.android.com" revision="refs/heads/exynos4412_android4.0.3_master"  />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -51,7 +51,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
@@ -61,7 +61,7 @@
   <project path="external/clang" name="platform/external/clang" />
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
@@ -101,7 +101,7 @@
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
@@ -135,7 +135,7 @@
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform/external/skia" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/skia" name="android_external_skia" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -155,28 +155,28 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="external/semco" name="platform/external/semco" revision="refs/heads/exynos4412_android4.0.3_master"/>
-  <project path="external/ath6kl-fwlog" name="platform/external/ath6kl-fwlog" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/ath6kl_fw " name="platform/external/ath6kl_fw " revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/tslib" name="platform/external/tslib" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/wlan_tool " name="platform/external/wlan_tool " revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/hostap-ccx" name="platform/external/hostap-ccx" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/iperf-2.0.4" name="platform/external/iperf-2.0.4" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/wireless_tools_29 " name="platform/external/wireless_tools_29 " revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/libsnfc-fw" name="platform/external/libsnfc-fw" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="external/semco" name="android_external_semco" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="external/ath6kl-fwlog" name="android_external_ath6kl-fwlog" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/ath6kl_fw " name="android_external_ath6kl_fw " revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/tslib" name="android_external_tslib" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/wlan_tool " name="android_external_wlan_tool " revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/hostap-ccx" name="android_external_hostap-ccx" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/iperf-2.0.4" name="android_external_iperf-2.0.4" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/wireless_tools_29 " name="android_external_wireless_tools_29 " revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/libsnfc-fw" name="android_external_libsnfc-fw" revision="refs/heads/exynos4412_android4.0.3_master"/>
 
 
-  <project path="frameworks/base" name="platform/frameworks/base"  revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="frameworks/base" name="android_frameworks_base"  revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="frameworks/media/libvideoeditor" name="android_frameworks_media_libvideoeditor" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -185,13 +185,13 @@
   <project path="frameworks/support" name="platform/frameworks/support" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/gps" name="platform/hardware/gps" revision="refs/heads/exynos4412_android4.0.3_master" 	/>
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="hardware/gps" name="android_hardware_gps" revision="refs/heads/exynos4412_android4.0.3_master" 	/>
+  <project path="hardware/libhardware" name="android_hardware_libhardware" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="hardware/ril" name="android_hardware_ril" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
 
@@ -199,11 +199,11 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser"  revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser"  revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/heads/exynos4412_android4.0.3_master"/>
-  <project path="packages/apps/SEC_Camera" name="platform/packages/apps/SEC_Camera" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="packages/apps/Camera" name="android_frameworks_Camera" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="packages/apps/SEC_Camera" name="android_frameworks_SEC_Camera" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -211,22 +211,22 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="packages/apps/Gallery2" name="android_frameworks_Gallery2" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/MusicULP" name="platform/packages/apps/MusicULP" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="packages/apps/MusicULP" name="android_frameworks_MusicULP" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="packages/apps/Nfc" name="android_frameworks_Nfc" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="refs/heads/exynos4412_android4.0.3_master"/>
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="packages/apps/QuickSearchBox" name="android_frameworks_QuickSearchBox" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="packages/apps/Settings" name="android_frameworks_Settings" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="packages/apps/SoundRecorder" name="android_frameworks_SoundRecorder" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -257,11 +257,11 @@
 
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="system/core" name="platform/system/core" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="system/bluetooth" name="android_system_bluetooth" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="system/core" name="android_system_core" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="system/extras" name="platform/system/extras" />
-  <project path="system/media" name="platform/system/media" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="system/netd" name="platform/system/netd" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="system/vold" name="platform/system/vold" revision="refs/heads/exynos4412_android4.0.3_master"/>
+  <project path="system/media" name="android_system_media" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="system/netd" name="android_system_netd" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="system/vold" name="android_system_vold" revision="refs/heads/exynos4412_android4.0.3_master"/>
 
 </manifest>
