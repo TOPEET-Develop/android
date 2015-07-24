@@ -161,7 +161,7 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/semco" name="android_external_semco" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master"/>
-  <project path="external/ath6kl-fwlog" name="android_external_ath6kl-fwlog" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/ath6kl-fwlog" name="android_external_ath6kl-fwlog" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/ath6kl_fw " name="android_external_ath6kl_fw" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/tslib" name="android_external_tslib" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/wlan_tool " name="android_external_wlan_tool" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
