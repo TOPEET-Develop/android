@@ -162,9 +162,9 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/semco" name="android_external_semco" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master"/>
   <project path="external/ath6kl-fwlog" name="android_external_ath6kl-fwlog" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/ath6kl_fw " name="android_external_ath6kl_fw" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/ath6kl_fw" name="android_external_ath6kl_fw" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/tslib" name="android_external_tslib" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
-  <project path="external/wlan_tool " name="android_external_wlan_tool" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="external/wlan_tool" name="android_external_wlan_tool" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/hostap-ccx" name="android_external_hostap-ccx" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/iperf-2.0.4" name="android_external_iperf-2.0.4" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="external/wireless_tools_29" name="android_external_wireless_tools_29" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
