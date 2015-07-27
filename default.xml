@@ -38,7 +38,7 @@
      <copyfile src="build_android.sh" dest="build_android.sh" />
      <copyfile src="make_system_only.sh" dest="make_system_only.sh" />
   </project>
-  <project path="device/samsung/exynos4" name="device_samsung_exynos4" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
+  <project path="device/samsung/exynos4" name="android_device_samsung_exynos4" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="device/samsung/common" name="android_device_samsung_common" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="device/samsung/smdk_common" name="android_device_samsung_smdk_common" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master" />
   <project path="device/samsung/multimedia" name="android_device_samsung_multimedia" remote="origin" revision="refs/heads/exynos4412_android4.0.3_master"  />
