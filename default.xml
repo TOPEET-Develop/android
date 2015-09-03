@@ -58,6 +58,8 @@
   <project path="device/samsung/smdk4x12" name="android_device_samsung_smdk4x12" remote="origin" revision="refs/heads/exynos4412_android4.4.4_master" groups="device">
     <copyfile src="build_android.sh" dest="build_android.sh" />
     <copyfile src="make_system_only.sh" dest="make_system_only.sh" />
+    <copyfile src="build_sdk_linux.sh" dest="build_sdk_linux.sh" />
+    <copyfile src="build_sdk_windows.sh" dest="build_sdk_windows.sh" />
   </project>
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
